@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "hey"],
+         "responses": ["Hello!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "bye", "Goodbye", "I am Leaving", "Have a Good day", "ciao", "later!"],
+         "responses": ["Bye", "Bye, Feel better soon!", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "Tips",
+         "patterns": ["I need your advice", "what are the best healthy habits?", "help me improve my daily routine!", "daily", "give me some tips"],
+         "responses": ["Try to stick to two cups of coffee a day at most, Avoid harmful use of alcohol, Check your blood pressure regularly, try to exercise and be physically active every day"],
+         "context_set": ""
+        },
+        {"tag": "Food",
+         "patterns": ["Can you give me some eating tips? ", "what diet should i follow?", "what foods are recommended ?", "recommend me healthy food"],
+         "responses": ["Choose foods with healthy fats, limit foods high in saturated fat, Opt for fresh or frozen vegetables instead of canned vegetables, Consume less salt and sugar.","Choose a fiber-filled diet, rich in whole grains, vegetables, and fruits." ],
+         "context_set": ""
+        },
+        {"tag": "Vaccine",
+         "patterns": ["Should i get vaccinated?", "I'm hesitant to get vaccinated", "do you think i should get my covid19 vaccine?", "vaccine"],
+         "responses": ["COVID-19 is a threat to people who are unvaccinated.", "My advice to you is get vaccinated as soon as possible. Some people who get COVID-19 can become severely ill, which could result in hospitalization, and in some cases ongoing health problems several weeks or even longer after getting infected."],
+         "context_set": ""
+        },
+        {"tag": "Sports",
+         "patterns": ["what are the daily exercises I should do?", "Can you recommend me some exercises", "what exercises?", "sports", "what sport i should practise?"],
+         "responses": ["I recommend you do everyday Pushups, Squats, Single-leg deadlifts, Side planks, Planks, Glute bridge.", "go to the gym"],
+         "context_set": ""
+        }
+]
+}
